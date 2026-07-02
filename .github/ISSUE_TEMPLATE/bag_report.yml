@@ -15,6 +15,11 @@ body:
         - Firefox
         - Edge
         - その他
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: 再現手順
+  - type: textarea
+    attributes:
+      label: 自由記入欄
