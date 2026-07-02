@@ -1,5 +1,4 @@
 name: バグ報告
-description: 不具合の報告
 labels: [bug]
 body:
   - type: textarea
@@ -9,13 +8,13 @@ body:
       required: true
   - type: dropdown
     attributes:
-      label: OS
+      label: ブラウザ
       options:
-        - Windows
-        - macOS
-        - Linux
-    validations:
-      required: true
+        - Chrome
+        - Safari
+        - Firefox
+        - Edge
+        - その他
   - type: textarea
     attributes:
       label: 再現手順
