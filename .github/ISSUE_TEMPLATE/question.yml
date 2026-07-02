@@ -1,9 +1,12 @@
-name: 質問
-description: 開発者に聞いてみたい事がある方はこちらへ
-labels: [question]
+name: a
+description: 実装してほしい新機能がある方はこちらへ
+labels: [feature]
 body:
   - type: textarea
     attributes:
       label: 内容
     validations:
       required: true
+  - type: textarea
+    attributes:
+      label: 背景・理由
