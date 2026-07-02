@@ -1,0 +1,9 @@
+name: 質問
+description: 開発者に聞いてみたい事がある方はこちらへ
+labels: [question]
+body:
+  - type: textarea
+    attributes:
+      label: 内容
+    validations:
+      required: true
