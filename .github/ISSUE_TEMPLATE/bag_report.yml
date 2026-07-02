@@ -1,5 +1,5 @@
 name: バグ報告
-description: バグ報告用のテンプレート
+description: バグを発見された方はこちらへ
 labels: [bug]
 body:
   - type: textarea
